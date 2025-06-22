@@ -1,0 +1,45 @@
+body {
+    background-image: url("/assets/Imagenes/fondo_pagina.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-shadow: 2px 2px 25px;
+    font-size: 65px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+p {
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.titulos {
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.textosysubtitulos {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pie_pagina {
+    border: 1px solid black;
+    text-align: center !important;
+    text-transform: capitalize;
+}
