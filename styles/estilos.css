@@ -40,6 +40,85 @@ p {
 
 .pie_pagina {
     border: 1px solid black;
-    text-align: center !important;
+    text-align: center;
     text-transform: capitalize;
+}
+
+.active {
+    background-color: rgb(204, 82, 38);
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.bienvenida {
+    /*Lo encontre en esta pagina https://cssgradient.io/blog/css-gradient-text/*/
+    font-size: 65px;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 19%, rgba(7, 64, 158, 1) 63%, rgba(0, 212, 255, 1) 100%);  -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenedor_informacion_contacto {
+    background-color: #999;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+input[type="text"],
+input[type="submit"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0px;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(21, 207, 64);
+}
+
+input:focus, textarea:focus {
+    background-color: violet;
 }
